@@ -1,7 +1,7 @@
 # ArXiv Synth: Summarizing arXiv Papers with Large Language Models
-
-![Alt text](./arxiv-synth.png)
-
+<p align="center">
+   <img src="./arxiv-synth.png" alt="ArXiv synth retro logo" width="250"/>
+</p>
 ArXiv Synth is a project that utilizes large language models to summarize and analyze content from arXiv based on a given query. It fetches papers from arXiv, processes them, and generates summaries using OpenAI's and Anthropic's language models. In its current form, the project is meant as an educational demonstration of the capabilities, not as a research tool.
 
 ## Features
@@ -15,10 +15,12 @@ ArXiv Synth is a project that utilizes large language models to summarize and an
 
 1. Install the required dependencies:
    ```
-   pip install arxiv openai anthropic
+   pip install arxiv openai anthropic jupyterlab
    ```
 
-2. Set up API keys:
+2. Launch the notebook `arXiv-synth.ipynb`
+
+3. Set up API keys:
    - Obtain an API key from OpenAI and assign it to the `openai_api_key` variable.
    - Obtain an API key from Anthropic and assign it to the `claude_api_key` variable.
 
